@@ -1,5 +1,5 @@
 {% set name = "qt-command-palette" %}
-{% set version = "0.0.7" %}
+{% set version = "0.0.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/qt_command_palette-{{ version }}.tar.gz
-  sha256: 9935634a63034d5940876132abe5a111f46018fb86e6f0fe1a438e6cc5f7ad3d
+  sha256: cf6f0692bfd26345b677422c263f3697c8ad71bb2c56165f35d9ddfe51c81636
 
 build:
   noarch: python
